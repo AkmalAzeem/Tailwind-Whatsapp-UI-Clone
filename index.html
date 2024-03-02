@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Whatsapp UI</title>
+    <title>Chats | Whatsapp</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -73,32 +78,43 @@
         </li>
 
         <li class="flex items-center flex-1 justify-between">
-          <div class="font-medium text-sm flex items-center space-x-2 relative cursor-pointer">
+          <div
+            class="font-medium text-sm flex items-center space-x-2 relative cursor-pointer"
+          >
             <span class="">Chats</span>
             <span
               class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center"
-              >8</span>
+              >8</span
+            >
             <div class="w-28 h-1 bg-white absolute -right-5 top-8"></div>
           </div>
-          <div class="font-medium text-sm flex items-center space-x-2 cursor-pointer">
-            <span class="text-slate-300">Updates</span>
+          <div
+            class="font-medium text-sm flex items-center space-x-2 cursor-pointer"
+          >
+            <a href="./status.html"
+              ><span class="text-slate-300">Updates</span></a
+            >
             <span
               class="bg-white text-emerald-700 p-0.5 rounded-full w-2 h-2 text-xs flex items-center justify-center"
-              ></span>
+            ></span>
           </div>
-          <div class="font-medium text-sm flex items-center space-x-2 mr-7 cursor-pointer">
+          <div
+            class="font-medium text-sm flex items-center space-x-2 mr-7 cursor-pointer"
+          >
             <span class="text-slate-300">Calls</span>
             <span
               class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center"
-              >1</span>
+              >1</span
+            >
           </div>
         </li>
       </ul>
 
       <!-- Chat Screen -->
-      <div class="bg-white">
+      <div class="bg-white relative">
         <!-- Akmal Azeem -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -156,7 +172,8 @@
           </div>
         </div>
         <!-- Will Smith -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -180,7 +197,8 @@
           </div>
         </div>
         <!-- Family Group -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -202,7 +220,8 @@
           </div>
         </div>
         <!-- Dwayne Johnson -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -218,12 +237,14 @@
             </p>
           </div>
           <div class="flex flex-col items-center space-y-1">
-            <span class="text-gray-500 font-semibold text-xs mb-6">07.47 pm</span>
-           
+            <span class="text-gray-500 font-semibold text-xs mb-6"
+              >07.47 pm</span
+            >
           </div>
         </div>
         <!-- Babe -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -261,7 +282,8 @@
           </div>
         </div>
         <!-- Best Friend -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -304,7 +326,8 @@
           </div>
         </div>
         <!-- Friends Forever -->
-        <div class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
+        <div
+          class="flex px-3 py-3 items-center space-x-4 hover:bg-gray-100 cursor-pointer"
         >
           <div>
             <img
@@ -316,7 +339,7 @@
           <div class="flex-1">
             <h4 class="font-semibold">Friends Forever ❤️🌍👫✨</h4>
             <p class="text-green-600 text-sm font-medium flex items-center">
-                 <span class="text-slate-500 font-normal">Azeem:&nbsp; </span>
+              <span class="text-slate-500 font-normal">Azeem:&nbsp; </span>
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -341,6 +364,20 @@
               >2</span
             >
           </div>
+        </div>
+        <div class="bg-emerald-700 w-12 h-12 rounded-2xl flex items-center justify-center absolute bottom-20 right-6 hover:bg-emerald-900 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="text-slate-200 fill-current"
+          >
+            <path
+              fill="currentColor"
+              d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2M6 9h12v2H6zm8 5H6v-2h8zm4-6H6V6h12z"
+            />
+          </svg>
         </div>
       </div>
     </section>
